@@ -65,7 +65,7 @@ class Books extends Product {
 
 }
 
-public class practical20 {
+public class practical20{
     public static void main(String[] args) {
         Clothing Tee = new Clothing(1, "T Shirt", 999, "S");
         Tee.displayInfo();
