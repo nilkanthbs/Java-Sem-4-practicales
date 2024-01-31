@@ -65,7 +65,6 @@ class CheckingAccount extends BankAccount {
         displayBalance();
     }
 }
-
 public class practical21 {
     public static void main(String[] args) {
         SavingsAccount savingsAccount = new SavingsAccount(1000, 500);
