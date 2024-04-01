@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class practical33 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str;
+        StringBuffer s1, s2, s3, s4, s5;
+
+        System.out.println("Enter a String :");
+        str = sc.next();
+        sc.close();
+
+        s1 = new StringBuffer(str);
+        s1.append(" Butterfly!");
+        System.out.println("New String : " + s1 + "\n");
+
+        s2 = new StringBuffer(str);
+        s2.delete(2, 3);
+        System.out.println("New String : " + s2 + "\n");
+
+        s3 = new StringBuffer(str);
+        s3.insert(1, str);
+        System.out.println("New String : " + s3 + "\n");
+
+        s4 = new StringBuffer(str);
+        s4.replace(2, 5, "yya!");
+        System.out.println("New String : " + s4 + "\n");
+
+        s5 = new StringBuffer(str);
+        s5.reverse();
+        System.out.println("New String : " + s5 + "\n");
+
+    }
+}
