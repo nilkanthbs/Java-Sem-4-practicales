@@ -1,5 +1,5 @@
 
-public class Program30_Wrapper {
+public class practical30 {
     public static void main(String[] args) {
         int a = 10;
         System.out.println("Value of a = " + a);
