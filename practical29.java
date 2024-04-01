@@ -1,5 +1,4 @@
-// Write a java program to showcases how multithreading allows multiple tasks to be executed simultaneously by printing a count from 1 to 5 with a 1-second delay between each count
-// Date : 20/03/2024, Author : Yash Wadhvani
+
 
 class CountingThread extends Thread {
     private int start;
